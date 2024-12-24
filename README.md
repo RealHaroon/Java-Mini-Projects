@@ -1,3 +1,4 @@
+
 # **Java Practice Projects**
 
 ## **Projects Overview**
@@ -6,7 +7,9 @@ This repository contains:
 1. **Rock-Paper-Scissors Game:** A simple CLI game where the user competes against the computer.
 2. **Guess the Number Game:** A number-guessing game with randomized numbers and tracking of user attempts.
 3. **Library Management System:** A system for managing a library, including adding, issuing, and returning books.
+4. **ATM Simulator:** A simulation of basic ATM functionality with login, balance check, deposit, and withdrawal operations.
 
+---
 
 ## **Project Details**
 
@@ -61,4 +64,44 @@ This repository contains:
   - Run the program.
   - Follow the predefined operations in the `main` method.
 
--
+---
+
+### **4. ATM Simulator**
+- **File:** `Atm_Simulator.java`
+- **Description:**  
+  A simulation of an ATM system that supports user login, balance checking, money deposit, and withdrawal functionality.
+- **Features:**
+  - **User Login:** Prompts the user to enter a 4-digit PIN and validates it.
+  - **Check Balance:** Displays the current account balance.
+  - **Deposit Money:** Allows the user to add money to their account.
+  - **Withdraw Money:** Allows the user to withdraw money, ensuring sufficient balance.
+  - **Exit:** Allows the user to end the session.
+- **Key Methods:**
+  - `userLogin(int input_pin)`: Validates the user's PIN.
+  - `getBalance()`: Returns the current balance.
+  - `deposit(int depAmt)`: Adds the specified amount to the account balance.
+  - `withdraw(int withdrawAmt)`: Deducts the specified amount from the balance, if sufficient.
+- **How to Use:**
+  - Run the program.
+  - Enter your PIN when prompted.
+  - Choose an action from the menu:
+    - Check Balance
+    - Deposit Money
+    - Withdraw Money
+    - Exit
+  - Follow the prompts for each action.
+- **Sample Output:**
+  ```
+  **ATM MACHINE**
+  Enter Your 4-digit Pin: 2222
+
+      Login Successful.
+      Press 1 to Check Balance.
+      Press 2 to Deposit Money.
+      Press 3 to Withdraw Money.
+      Press 4 to Exit.
+
+  Enter your choice 1-4: 2
+      Deposit Money: 500
+      500 Added Successfully!
+  ```
