@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Tic_Tac_Toe {
+
+public class Main {
     static char arr[][]=new char[3][3];
 
     public static void displayGrid(){
@@ -16,17 +17,17 @@ public class Tic_Tac_Toe {
 
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        // Scanner sc =new Scanner(System.in);
         
         
-        System.out.println("Enter Row");
-        int row=sc.nextInt();
-        System.out.println("Enter Column");
-        int col=sc.nextInt();
-        System.out.println("Enter input");
-        char inp=sc.next().charAt(0);
-        makeMove(row, col, inp);
-        displayGrid();
+        // System.out.println("Enter Row");
+        // int row=sc.nextInt();
+        // System.out.println("Enter Column");
+        // int col=sc.nextInt();
+        // System.out.println("Enter input");
+        // char inp=sc.next().charAt(0);
+        // makeMove(row, col, inp);
+        // displayGrid();
         
         
     }

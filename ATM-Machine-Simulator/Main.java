@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Atm_Simulator{
+public class Main{
     static int balance;
     
         public static int getBalance() {
