@@ -1,4 +1,4 @@
-package Practice_java;
+
 
 import java.util.Scanner;
 import java.util.Random;
