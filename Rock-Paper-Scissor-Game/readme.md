@@ -25,11 +25,11 @@ This is a simple Rock-Paper-Scissors game implemented in Java. The game allows t
 enter your move
 r
 computer played p
-you L
+you Lost
 enter your move
 s
 computer played p
-you W
+you Won
 enter your move
 x
 x  game ended cause move is invalid

@@ -26,21 +26,21 @@ public class practic_rock_paper_scissor {
                 System.out.println("tie");
             } else if (move.equals("r")) {
                 if (computer.equals("p")) {
-                    System.out.println("you L");
+                    System.out.println("you Lost");
                 } else if (computer.equals("s")) {
-                    System.out.println("you W ");
+                    System.out.println("you Won ");
                 }
             } else if (move.equals("p")) {
                 if (computer.equals("r")) {
-                    System.out.println("you W");
+                    System.out.println("you Won");
                 } else if (computer.equals("s")) {
-                    System.out.println("you L");
+                    System.out.println("you Lost");
                 }
             } else if (move.equals("s")) {
                 if (computer.equals("p")) {
-                    System.out.println("you W");
+                    System.out.println("you Won");
                 } else if (computer.equals("r")) {
-                    System.out.println("you L");
+                    System.out.println("you Lost");
                 }
             }
 
